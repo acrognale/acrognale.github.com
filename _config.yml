@@ -8,7 +8,10 @@ pygments: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
-#
+# 6/27/12: Google, we need to have a talk about how you setup your
+#    public names. Come on, a number when everyone else has a good
+#    public identifier? :P
+
 title : Bitsolar
 tagline: Ramblings of a student
 author :
@@ -16,8 +19,13 @@ author :
   email : anthony@bitsolar.com
   github : acrognale
   facebook : acrognale
+  gplus : 100467293861765506963 
+  mobile: 17175464186
   twitter : acrognali
-  feedburner : feedname
+  feedburner : bitsolar
+  feedburnerextension : rDWI
+  quora: Anthony-Crognale
+  linkedin: acrognale
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

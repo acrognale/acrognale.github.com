@@ -34,25 +34,33 @@
       <div class="contact">
         <p>
           {{ site.author.name }}<br />
-          {{ site.tagline }}<br />
-          <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a>
+          <!--{{ site.tagline }}<br />-->
+          <b>contact info</b><br />
+          email: <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a><br />
+          mobile: <a href="tel:{{ site.author.mobile }}">+{{ site.author.mobile }}</a><br />
         </p>
       </div>
       <div class="contact">
         <p>
-          <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a><br />
-          <a href="http://twitter.com/{{ site.author.twitter }}/">twitter.com/{{ site.author.twitter }}</a><br />
+          <b>social</b><br />
+          <a href="http://github.com/{{ site.author.github }}/">github</a><br />
+          <a href="http://twitter.com/{{ site.author.twitter }}/">twitter</a><br />
+          <a href="http://facebook.com/{{ site.author.facebook }}/">facebook</a><br />
+          <a href="http://plus.google.com/u/0/{{ site.author.gplus }}/">google+</a><br />
+          <a href="http://linkedin.com/in/{{ site.author.linkedin }}/">linkedin</a><br />
+          <a href="http://quora.com/{{ site.author.quora }}/">quora</a><br />
         </p>
       </div>
       <div class="rss">
-        <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}">
+        <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}/{{ site.author.feedburnerextension }}">
           <img src="{{ ASSET_PATH }}/images/rss.png" alt="Subscribe to RSS Feed" />
         </a>
       </div>
     </div>
   </div>
-  <a href="http://github.com/{{ site.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+  <!--<a href="http://github.com/{{ site.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>-->
 
   {% include JB/analytics %}
+
 </body>
 </html>
